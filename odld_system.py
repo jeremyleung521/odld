@@ -37,7 +37,7 @@ class ODLDPropagator(WESTPropagator):
         self.sigma = 0.001 ** (0.5)  # friction coefficient
 
         self.A = 2
-        self.B = 30
+        self.B = 5
         self.C = 0.5
         self.x0 = 1
         self.y0 = 1
